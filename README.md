@@ -1,11 +1,8 @@
 # KASTEP-Login-Form
 
 
-<div align="center">
-<img src="screenshoots/bg1.png"  />
-  <img src="screenshoots/bg2.png" />
-  <img src="screenshoots/bg3.png"  width="300" />
-  <img src="screenshoots/bg4.png"  width="300" />
-  
-</div>
+![alt text](https://github.com/zakasmi/KASTEP-Login-Form/blob/master/screenshoots/bg1.PNG)
+![alt text](https://github.com/zakasmi/KASTEP-Login-Form/blob/master/screenshoots/bg2.PNG)
+![Helloo ](https://github.com/zakasmi/KASTEP-Login-Form/blob/master/screenshoots/bg3.PNG)
+
 
