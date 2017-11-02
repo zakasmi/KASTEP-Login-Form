@@ -15,5 +15,5 @@ hh
 </div>
 
 <div>
-<img src="screenshoots/bg4.png" width="300px">
+<img src="screenshoots/bg1.png" width="300px">
 </div>
