@@ -1,0 +1,166 @@
+body{
+width: 100%;
+    height: 100%;
+
+margin:0;
+padding:0;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+/* start the div that contains the background */
+.background-container1{
+width: 100vw;
+height: 100vh;
+
+margin:0;
+padding:0;
+background:  linear-gradient(rgba(56, 162, 221,.2),rgba(236, 54, 101,.8)) ,url(../img/bgpic.JPEG) center no-repeat fixed;
+background-size: cover;
+     
+}
+/* END the div that contains the background */
+
+/* Start login-container => this div contains the form */
+.login-container{
+    position:absolute;
+    width: 40vw;
+    height: 65vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(0,0,0,.8);
+    padding: 30px 40px;
+    color:white;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 20px #000;
+    border-radius: 10px;
+    /* use this code to center */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+}
+
+@media (max-width:767px){
+    
+    .login-container{    
+     width: 90vw;
+    height: 80vh;
+    }
+    
+}
+/* the top icon user */
+.user-icon{
+    position:absolute;
+    height: 100px;
+    width: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+    top: calc(-100px/2);
+    left: calc(50% - 50px);
+    background-color: #EC3665;
+    box-shadow: 0px 5px 20px #000;
+    
+}
+
+
+.login-container form{
+    width: 80%;
+    position: absolute;
+    margin: auto 0px;
+    
+}
+
+.login-container form p{
+    
+    padding: 0;
+    
+    margin: 0;
+    font-size: 13px;
+    
+    
+}
+.login-container form p a{
+    font-size: 13px;
+    color: white;
+}
+.login-container span{
+    color: #CC4D72
+}
+.belowsignin{
+    color: #ccc !important;
+    text-align: center;
+    
+}
+.belowsignin a{
+    text-decoration: none;
+    color: #EC3665 !important;
+    font-size: 14px !important;
+    
+
+    
+}
+.login-container a:hover{
+    color:#CC4D72 !important
+    
+    
+}
+
+.login-container input{
+   width: 100%;
+    margin-bottom: 20px;
+    
+}
+
+.login-container input[type="text"],.login-container input[type="password"]{
+   
+    border: none;
+    border-bottom: 1px solid #fff;
+    height: 30px;
+    background: transparent;
+    outline: none;
+    font-size: 16px;
+    line-height: 30px;
+    color: #fff;
+    
+}
+::placeholder{
+    
+    color:#999;
+}
+
+.login-container input[type="submit"]{
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    border:1px solid #EC3665;
+    border-radius:30px;
+    height: 40px;
+    background-color: transparent;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    outline: none;
+    
+    
+}
+
+.login-container input[type="submit"]:hover{
+    background-color: #EC3665;
+    border:none;
+    cursor: pointer;
+    
+}
+         /*by Zakaria Kasmi*/
+            .me{
+                display: block;
+                position: absolute;
+                bottom: 2px;
+                font-size: 10px;
+
+            }
+            .me a{
+                font-size: 10px !important;
+            }
+/* Start login-container => this div contains the form */
